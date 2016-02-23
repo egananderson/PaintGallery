@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55482F691C7585F700024239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55482F681C7585F700024239 /* AppDelegate.swift */; };
+		55482F701C7585F800024239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55482F6F1C7585F800024239 /* Assets.xcassets */; };
+		55482F7E1C7585F800024239 /* Collection_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55482F7D1C7585F800024239 /* Collection_ViewTests.swift */; };
+		55482F891C7585F800024239 /* Collection_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55482F881C7585F800024239 /* Collection_ViewUITests.swift */; };
+		55482F971C75874F00024239 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55482F961C75874F00024239 /* Default-568h@2x.png */; };
+		55E495F11C79387F00C3AEC3 /* PaintingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E495F01C79387F00C3AEC3 /* PaintingListViewController.swift */; };
+		55E495F31C794C8D00C3AEC3 /* PaintingCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E495F21C794C8D00C3AEC3 /* PaintingCollection.swift */; };
+		55E496411C7B8A5500C3AEC3 /* BevelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4962B1C7B8A5500C3AEC3 /* BevelButton.swift */; };
+		55E496421C7B8A5500C3AEC3 /* BluePallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4962C1C7B8A5500C3AEC3 /* BluePallet.swift */; };
+		55E496431C7B8A5500C3AEC3 /* BrushChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4962D1C7B8A5500C3AEC3 /* BrushChooserViewController.swift */; };
+		55E496441C7B8A5500C3AEC3 /* ButtButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4962E1C7B8A5500C3AEC3 /* ButtButton.swift */; };
+		55E496451C7B8A5500C3AEC3 /* ControlPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4962F1C7B8A5500C3AEC3 /* ControlPanelView.swift */; };
+		55E496461C7B8A5500C3AEC3 /* EndCapsPallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E496301C7B8A5500C3AEC3 /* EndCapsPallet.swift */; };
+		55E496471C7B8A5500C3AEC3 /* GreenPallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E496311C7B8A5500C3AEC3 /* GreenPallet.swift */; };
+		55E496491C7B8A5500C3AEC3 /* MiterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E496331C7B8A5500C3AEC3 /* MiterButton.swift */; };
+		55E4964A1C7B8A5500C3AEC3 /* Painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E496341C7B8A5500C3AEC3 /* Painting.swift */; };
+		55E4964B1C7B8A5500C3AEC3 /* PaintingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E496351C7B8A5500C3AEC3 /* PaintingView.swift */; };
+		55E4964C1C7B8A5500C3AEC3 /* PaintingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E496361C7B8A5500C3AEC3 /* PaintingViewController.swift */; };
+		55E4964D1C7B8A5500C3AEC3 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E496371C7B8A5500C3AEC3 /* Preview.swift */; };
+		55E4964E1C7B8A5500C3AEC3 /* ProjectingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E496381C7B8A5500C3AEC3 /* ProjectingButton.swift */; };
+		55E4964F1C7B8A5500C3AEC3 /* RedPallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E496391C7B8A5500C3AEC3 /* RedPallet.swift */; };
+		55E496501C7B8A5500C3AEC3 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4963A1C7B8A5500C3AEC3 /* RoundButton.swift */; };
+		55E496511C7B8A5500C3AEC3 /* RoundJoinButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4963B1C7B8A5500C3AEC3 /* RoundJoinButton.swift */; };
+		55E496521C7B8A5500C3AEC3 /* Stroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4963C1C7B8A5500C3AEC3 /* Stroke.swift */; };
+		55E496531C7B8A5500C3AEC3 /* StrokeJoinPallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4963D1C7B8A5500C3AEC3 /* StrokeJoinPallet.swift */; };
+		55E496541C7B8A5500C3AEC3 /* WidthPallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E4963E1C7B8A5500C3AEC3 /* WidthPallet.swift */; };
+		55E496561C7BF4B700C3AEC3 /* PaintingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E496551C7BF4B700C3AEC3 /* PaintingCollectionViewCell.swift */; };
+		55E496581C7C078D00C3AEC3 /* NewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E496571C7C078D00C3AEC3 /* NewCollectionViewCell.swift */; };
+		55E4965A1C7CB83A00C3AEC3 /* BrushSpecsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E496591C7CB83A00C3AEC3 /* BrushSpecsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55482F7A1C7585F800024239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55482F5D1C7585F700024239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55482F641C7585F700024239;
+			remoteInfo = "Collection View";
+		};
+		55482F851C7585F800024239 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55482F5D1C7585F700024239 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55482F641C7585F700024239;
+			remoteInfo = "Collection View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55482F651C7585F700024239 /* PaintGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaintGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55482F681C7585F700024239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55482F6F1C7585F800024239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55482F741C7585F800024239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55482F791C7585F800024239 /* PaintGallery.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintGallery.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55482F7D1C7585F800024239 /* Collection_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection_ViewTests.swift; sourceTree = "<group>"; };
+		55482F7F1C7585F800024239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55482F841C7585F800024239 /* PaintGallery.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaintGallery.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55482F881C7585F800024239 /* Collection_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection_ViewUITests.swift; sourceTree = "<group>"; };
+		55482F8A1C7585F800024239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55482F961C75874F00024239 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		55E495F01C79387F00C3AEC3 /* PaintingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintingListViewController.swift; sourceTree = "<group>"; };
+		55E495F21C794C8D00C3AEC3 /* PaintingCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PaintingCollection.swift; path = ../PaintingCollection.swift; sourceTree = "<group>"; };
+		55E4962B1C7B8A5500C3AEC3 /* BevelButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BevelButton.swift; sourceTree = "<group>"; };
+		55E4962C1C7B8A5500C3AEC3 /* BluePallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluePallet.swift; sourceTree = "<group>"; };
+		55E4962D1C7B8A5500C3AEC3 /* BrushChooserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrushChooserViewController.swift; sourceTree = "<group>"; };
+		55E4962E1C7B8A5500C3AEC3 /* ButtButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtButton.swift; sourceTree = "<group>"; };
+		55E4962F1C7B8A5500C3AEC3 /* ControlPanelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlPanelView.swift; sourceTree = "<group>"; };
+		55E496301C7B8A5500C3AEC3 /* EndCapsPallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndCapsPallet.swift; sourceTree = "<group>"; };
+		55E496311C7B8A5500C3AEC3 /* GreenPallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenPallet.swift; sourceTree = "<group>"; };
+		55E496331C7B8A5500C3AEC3 /* MiterButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiterButton.swift; sourceTree = "<group>"; };
+		55E496341C7B8A5500C3AEC3 /* Painting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Painting.swift; sourceTree = "<group>"; };
+		55E496351C7B8A5500C3AEC3 /* PaintingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintingView.swift; sourceTree = "<group>"; };
+		55E496361C7B8A5500C3AEC3 /* PaintingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintingViewController.swift; sourceTree = "<group>"; };
+		55E496371C7B8A5500C3AEC3 /* Preview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+		55E496381C7B8A5500C3AEC3 /* ProjectingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectingButton.swift; sourceTree = "<group>"; };
+		55E496391C7B8A5500C3AEC3 /* RedPallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedPallet.swift; sourceTree = "<group>"; };
+		55E4963A1C7B8A5500C3AEC3 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		55E4963B1C7B8A5500C3AEC3 /* RoundJoinButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundJoinButton.swift; sourceTree = "<group>"; };
+		55E4963C1C7B8A5500C3AEC3 /* Stroke.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stroke.swift; sourceTree = "<group>"; };
+		55E4963D1C7B8A5500C3AEC3 /* StrokeJoinPallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeJoinPallet.swift; sourceTree = "<group>"; };
+		55E4963E1C7B8A5500C3AEC3 /* WidthPallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WidthPallet.swift; sourceTree = "<group>"; };
+		55E496551C7BF4B700C3AEC3 /* PaintingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintingCollectionViewCell.swift; sourceTree = "<group>"; };
+		55E496571C7C078D00C3AEC3 /* NewCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCollectionViewCell.swift; sourceTree = "<group>"; };
+		55E496591C7CB83A00C3AEC3 /* BrushSpecsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrushSpecsView.swift; path = BrushChooser/BrushSpecsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55482F621C7585F700024239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55482F761C7585F800024239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55482F811C7585F800024239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55482F5C1C7585F700024239 = {
+			isa = PBXGroup;
+			children = (
+				55482F961C75874F00024239 /* Default-568h@2x.png */,
+				55482F671C7585F700024239 /* PaintGallery */,
+				55482F7C1C7585F800024239 /* PaintGalleryTests */,
+				55482F871C7585F800024239 /* PaintGalleryUITests */,
+				55482F661C7585F700024239 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55482F661C7585F700024239 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55482F651C7585F700024239 /* PaintGallery.app */,
+				55482F791C7585F800024239 /* PaintGallery.xctest */,
+				55482F841C7585F800024239 /* PaintGallery.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55482F671C7585F700024239 /* PaintGallery */ = {
+			isa = PBXGroup;
+			children = (
+				55482F681C7585F700024239 /* AppDelegate.swift */,
+				55E495F01C79387F00C3AEC3 /* PaintingListViewController.swift */,
+				55E496571C7C078D00C3AEC3 /* NewCollectionViewCell.swift */,
+				55E496551C7BF4B700C3AEC3 /* PaintingCollectionViewCell.swift */,
+				55E495F21C794C8D00C3AEC3 /* PaintingCollection.swift */,
+				55E496591C7CB83A00C3AEC3 /* BrushSpecsView.swift */,
+				55482F6F1C7585F800024239 /* Assets.xcassets */,
+				55482F741C7585F800024239 /* Info.plist */,
+				55E496281C7B8A5500C3AEC3 /* BrushChooser */,
+			);
+			path = PaintGallery;
+			sourceTree = "<group>";
+		};
+		55482F7C1C7585F800024239 /* PaintGalleryTests */ = {
+			isa = PBXGroup;
+			children = (
+				55482F7D1C7585F800024239 /* Collection_ViewTests.swift */,
+				55482F7F1C7585F800024239 /* Info.plist */,
+			);
+			path = PaintGalleryTests;
+			sourceTree = "<group>";
+		};
+		55482F871C7585F800024239 /* PaintGalleryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55482F881C7585F800024239 /* Collection_ViewUITests.swift */,
+				55482F8A1C7585F800024239 /* Info.plist */,
+			);
+			path = PaintGalleryUITests;
+			sourceTree = "<group>";
+		};
+		55E496281C7B8A5500C3AEC3 /* BrushChooser */ = {
+			isa = PBXGroup;
+			children = (
+				55E4962B1C7B8A5500C3AEC3 /* BevelButton.swift */,
+				55E4962C1C7B8A5500C3AEC3 /* BluePallet.swift */,
+				55E4962D1C7B8A5500C3AEC3 /* BrushChooserViewController.swift */,
+				55E4962E1C7B8A5500C3AEC3 /* ButtButton.swift */,
+				55E4962F1C7B8A5500C3AEC3 /* ControlPanelView.swift */,
+				55E496301C7B8A5500C3AEC3 /* EndCapsPallet.swift */,
+				55E496311C7B8A5500C3AEC3 /* GreenPallet.swift */,
+				55E496331C7B8A5500C3AEC3 /* MiterButton.swift */,
+				55E496341C7B8A5500C3AEC3 /* Painting.swift */,
+				55E496351C7B8A5500C3AEC3 /* PaintingView.swift */,
+				55E496361C7B8A5500C3AEC3 /* PaintingViewController.swift */,
+				55E496371C7B8A5500C3AEC3 /* Preview.swift */,
+				55E496381C7B8A5500C3AEC3 /* ProjectingButton.swift */,
+				55E496391C7B8A5500C3AEC3 /* RedPallet.swift */,
+				55E4963A1C7B8A5500C3AEC3 /* RoundButton.swift */,
+				55E4963B1C7B8A5500C3AEC3 /* RoundJoinButton.swift */,
+				55E4963C1C7B8A5500C3AEC3 /* Stroke.swift */,
+				55E4963D1C7B8A5500C3AEC3 /* StrokeJoinPallet.swift */,
+				55E4963E1C7B8A5500C3AEC3 /* WidthPallet.swift */,
+			);
+			path = BrushChooser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55482F641C7585F700024239 /* PaintGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55482F8D1C7585F800024239 /* Build configuration list for PBXNativeTarget "PaintGallery" */;
+			buildPhases = (
+				55482F611C7585F700024239 /* Sources */,
+				55482F621C7585F700024239 /* Frameworks */,
+				55482F631C7585F700024239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaintGallery;
+			productName = "Collection View";
+			productReference = 55482F651C7585F700024239 /* PaintGallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55482F781C7585F800024239 /* PaintGalleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55482F901C7585F800024239 /* Build configuration list for PBXNativeTarget "PaintGalleryTests" */;
+			buildPhases = (
+				55482F751C7585F800024239 /* Sources */,
+				55482F761C7585F800024239 /* Frameworks */,
+				55482F771C7585F800024239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55482F7B1C7585F800024239 /* PBXTargetDependency */,
+			);
+			name = PaintGalleryTests;
+			productName = "Collection ViewTests";
+			productReference = 55482F791C7585F800024239 /* PaintGallery.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55482F831C7585F800024239 /* PaintGalleryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55482F931C7585F800024239 /* Build configuration list for PBXNativeTarget "PaintGalleryUITests" */;
+			buildPhases = (
+				55482F801C7585F800024239 /* Sources */,
+				55482F811C7585F800024239 /* Frameworks */,
+				55482F821C7585F800024239 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55482F861C7585F800024239 /* PBXTargetDependency */,
+			);
+			name = PaintGalleryUITests;
+			productName = "Collection ViewUITests";
+			productReference = 55482F841C7585F800024239 /* PaintGallery.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55482F5D1C7585F700024239 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Egan Anderson";
+				TargetAttributes = {
+					55482F641C7585F700024239 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					55482F781C7585F800024239 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 55482F641C7585F700024239;
+					};
+					55482F831C7585F800024239 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 55482F641C7585F700024239;
+					};
+				};
+			};
+			buildConfigurationList = 55482F601C7585F700024239 /* Build configuration list for PBXProject "PaintGallery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55482F5C1C7585F700024239;
+			productRefGroup = 55482F661C7585F700024239 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55482F641C7585F700024239 /* PaintGallery */,
+				55482F781C7585F800024239 /* PaintGalleryTests */,
+				55482F831C7585F800024239 /* PaintGalleryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55482F631C7585F700024239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55482F701C7585F800024239 /* Assets.xcassets in Resources */,
+				55482F971C75874F00024239 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55482F771C7585F800024239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55482F821C7585F800024239 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55482F611C7585F700024239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E496441C7B8A5500C3AEC3 /* ButtButton.swift in Sources */,
+				55E4964E1C7B8A5500C3AEC3 /* ProjectingButton.swift in Sources */,
+				55E496521C7B8A5500C3AEC3 /* Stroke.swift in Sources */,
+				55E4964B1C7B8A5500C3AEC3 /* PaintingView.swift in Sources */,
+				55E496461C7B8A5500C3AEC3 /* EndCapsPallet.swift in Sources */,
+				55482F691C7585F700024239 /* AppDelegate.swift in Sources */,
+				55E496511C7B8A5500C3AEC3 /* RoundJoinButton.swift in Sources */,
+				55E496451C7B8A5500C3AEC3 /* ControlPanelView.swift in Sources */,
+				55E496561C7BF4B700C3AEC3 /* PaintingCollectionViewCell.swift in Sources */,
+				55E496541C7B8A5500C3AEC3 /* WidthPallet.swift in Sources */,
+				55E496491C7B8A5500C3AEC3 /* MiterButton.swift in Sources */,
+				55E496431C7B8A5500C3AEC3 /* BrushChooserViewController.swift in Sources */,
+				55E496501C7B8A5500C3AEC3 /* RoundButton.swift in Sources */,
+				55E495F31C794C8D00C3AEC3 /* PaintingCollection.swift in Sources */,
+				55E4964F1C7B8A5500C3AEC3 /* RedPallet.swift in Sources */,
+				55E4965A1C7CB83A00C3AEC3 /* BrushSpecsView.swift in Sources */,
+				55E496581C7C078D00C3AEC3 /* NewCollectionViewCell.swift in Sources */,
+				55E4964C1C7B8A5500C3AEC3 /* PaintingViewController.swift in Sources */,
+				55E496421C7B8A5500C3AEC3 /* BluePallet.swift in Sources */,
+				55E496471C7B8A5500C3AEC3 /* GreenPallet.swift in Sources */,
+				55E496531C7B8A5500C3AEC3 /* StrokeJoinPallet.swift in Sources */,
+				55E4964A1C7B8A5500C3AEC3 /* Painting.swift in Sources */,
+				55E495F11C79387F00C3AEC3 /* PaintingListViewController.swift in Sources */,
+				55E4964D1C7B8A5500C3AEC3 /* Preview.swift in Sources */,
+				55E496411C7B8A5500C3AEC3 /* BevelButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55482F751C7585F800024239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55482F7E1C7585F800024239 /* Collection_ViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55482F801C7585F800024239 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55482F891C7585F800024239 /* Collection_ViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55482F7B1C7585F800024239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55482F641C7585F700024239 /* PaintGallery */;
+			targetProxy = 55482F7A1C7585F800024239 /* PBXContainerItemProxy */;
+		};
+		55482F861C7585F800024239 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55482F641C7585F700024239 /* PaintGallery */;
+			targetProxy = 55482F851C7585F800024239 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55482F8B1C7585F800024239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55482F8C1C7585F800024239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55482F8E1C7585F800024239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PaintGallery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = d.PaintGallery;
+				PRODUCT_NAME = PaintGallery;
+			};
+			name = Debug;
+		};
+		55482F8F1C7585F800024239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PaintGallery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = d.PaintGallery;
+				PRODUCT_NAME = PaintGallery;
+			};
+			name = Release;
+		};
+		55482F911C7585F800024239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Collection ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "d.Collection-ViewTests";
+				PRODUCT_NAME = PaintGallery;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaintGallery.app/PaintGallery";
+			};
+			name = Debug;
+		};
+		55482F921C7585F800024239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Collection ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "d.Collection-ViewTests";
+				PRODUCT_NAME = PaintGallery;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaintGallery.app/PaintGallery";
+			};
+			name = Release;
+		};
+		55482F941C7585F800024239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Collection ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "d.Collection-ViewUITests";
+				PRODUCT_NAME = PaintGallery;
+				TEST_TARGET_NAME = "Collection View";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		55482F951C7585F800024239 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Collection ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "d.Collection-ViewUITests";
+				PRODUCT_NAME = PaintGallery;
+				TEST_TARGET_NAME = "Collection View";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55482F601C7585F700024239 /* Build configuration list for PBXProject "PaintGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55482F8B1C7585F800024239 /* Debug */,
+				55482F8C1C7585F800024239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55482F8D1C7585F800024239 /* Build configuration list for PBXNativeTarget "PaintGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55482F8E1C7585F800024239 /* Debug */,
+				55482F8F1C7585F800024239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55482F901C7585F800024239 /* Build configuration list for PBXNativeTarget "PaintGalleryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55482F911C7585F800024239 /* Debug */,
+				55482F921C7585F800024239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55482F931C7585F800024239 /* Build configuration list for PBXNativeTarget "PaintGalleryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55482F941C7585F800024239 /* Debug */,
+				55482F951C7585F800024239 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55482F5D1C7585F700024239 /* Project object */;
+}
